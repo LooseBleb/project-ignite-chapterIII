@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--background);
+}
+
+@media (min-width: 1080px) {
+  html{
+    font-size:93.75%
+  }
+}
+
+@media (min-width: 720px) {
+  html{
+    font-size:87.5%
+  }
+}
+
+:root{  
+  --background: #121414;
+  --grey-500: #A8A8B3;
+  --grey-900: #2e2d2d;
+  --grey-700: #4a4a4a;
+
+  --title-body: #c4C4C4;
+  --sub-title: #E1E1E6;
+
+  --yellow-300: #EBA417;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body, input, textarea, button, a, span{
+  font-family: Roboto, sans-serif;
+}
